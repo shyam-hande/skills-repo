@@ -1,0 +1,13 @@
+{
+    "name": "python-log-injector",
+    "version": "1.0.0",
+    "description": "Injects logs into python functions",
+    "mcpServers": {
+      "python-log-injector": {
+        "command": "python",
+        "args": [
+          "mcp_server.py"
+        ]
+      }
+    }
+  }

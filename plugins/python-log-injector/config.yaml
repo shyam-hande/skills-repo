@@ -1,8 +1,15 @@
 model_list:
-  - model_name: python-log-injector
+  - model_name: claude-sonnet-4-6
     litellm_params:
       model: gemini/gemini-2.5-flash
+
+  - model_name: claude-opus-4-7
+    litellm_params:
+      model: gemini/gemini-2.5-pro
 
 general_settings:
   master_key: sk-1234
   database_url: "postgresql://postgres:dbpass123@db:5432/litellm"
+
+litellm_settings:
+  drop_params: true
